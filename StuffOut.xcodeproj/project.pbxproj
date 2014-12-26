@@ -7,12 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B80A8B211A46AEA300B00138 /* StuffOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80A8B201A46AEA300B00138 /* StuffOptions.swift */; };
+		B80EFA801A49227B00C4DB07 /* launchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = B80EFA7F1A49227B00C4DB07 /* launchImage.png */; };
+		B80EFA821A492E6C00C4DB07 /* signInVK.png in Resources */ = {isa = PBXBuildFile; fileRef = B80EFA811A492E6C00C4DB07 /* signInVK.png */; };
+		B80EFA851A49322B00C4DB07 /* shareVK.png in Resources */ = {isa = PBXBuildFile; fileRef = B80EFA831A49322B00C4DB07 /* shareVK.png */; };
+		B80EFA861A49322B00C4DB07 /* signInVK.png in Resources */ = {isa = PBXBuildFile; fileRef = B80EFA841A49322B00C4DB07 /* signInVK.png */; };
+		B80EFA881A4934B600C4DB07 /* shareFacebook.png in Resources */ = {isa = PBXBuildFile; fileRef = B80EFA871A4934B600C4DB07 /* shareFacebook.png */; };
+		B86D0EF31A487C1A00C070C6 /* VKSdkResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B86D0EF21A487C1A00C070C6 /* VKSdkResources.bundle */; };
+		B86D0EF51A488E3B00C070C6 /* VKLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = B86D0EF41A488E3B00C070C6 /* VKLogo.png */; };
+		B86D0EFC1A48B0DF00C070C6 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8877C8D1A47023100C03050 /* FacebookSDK.framework */; };
 		B86DA9611A4586F70091F0BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86DA9601A4586F60091F0BC /* AppDelegate.swift */; };
-		B86DA9631A4586F70091F0BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86DA9621A4586F70091F0BC /* ViewController.swift */; };
 		B86DA9661A4586F70091F0BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86DA9641A4586F70091F0BC /* Main.storyboard */; };
 		B86DA9681A4586F70091F0BC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B86DA9671A4586F70091F0BC /* Images.xcassets */; };
 		B86DA96B1A4586F70091F0BC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B86DA9691A4586F70091F0BC /* LaunchScreen.xib */; };
 		B86DA9771A4586F70091F0BC /* StuffOutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86DA9761A4586F70091F0BC /* StuffOutTests.swift */; };
+		B86DA98A1A45A0EB0091F0BC /* Intro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B86DA9881A45A0EB0091F0BC /* Intro.storyboard */; };
+		B86DA9971A45A79A0091F0BC /* page1.png in Resources */ = {isa = PBXBuildFile; fileRef = B86DA9931A45A79A0091F0BC /* page1.png */; };
+		B86DA9981A45A79A0091F0BC /* page2.png in Resources */ = {isa = PBXBuildFile; fileRef = B86DA9941A45A79A0091F0BC /* page2.png */; };
+		B86DA9991A45A79A0091F0BC /* page3.png in Resources */ = {isa = PBXBuildFile; fileRef = B86DA9951A45A79A0091F0BC /* page3.png */; };
+		B86DA99A1A45A79A0091F0BC /* page4.png in Resources */ = {isa = PBXBuildFile; fileRef = B86DA9961A45A79A0091F0BC /* page4.png */; };
+		B86DA99D1A45A8AF0091F0BC /* IntroContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86DA99C1A45A8AF0091F0BC /* IntroContentViewController.swift */; };
+		B86DA99F1A45AB3E0091F0BC /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86DA99E1A45AB3E0091F0BC /* IntroViewController.swift */; };
+		B8877C901A47023D00C03050 /* VKSdk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8877C8F1A47023D00C03050 /* VKSdk.framework */; };
+		B88E25C81A471874006F331B /* ThanksForOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88E25C71A471874006F331B /* ThanksForOrderViewController.swift */; };
+		B8ACA2041A46DCB20031DFB8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8ACA2031A46DCB20031DFB8 /* SignUpViewController.swift */; };
+		B8B774A11A48CBB200E3558A /* AddressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B774A01A48CBB200E3558A /* AddressViewController.swift */; };
+		B8B774A31A48F8FA00E3558A /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = B8B774A21A48F8FA00E3558A /* background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +46,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B80A8B201A46AEA300B00138 /* StuffOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StuffOptions.swift; sourceTree = "<group>"; };
+		B80EFA7F1A49227B00C4DB07 /* launchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImage.png; sourceTree = "<group>"; };
+		B80EFA811A492E6C00C4DB07 /* signInVK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signInVK.png; sourceTree = "<group>"; };
+		B80EFA831A49322B00C4DB07 /* shareVK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shareVK.png; sourceTree = "<group>"; };
+		B80EFA841A49322B00C4DB07 /* signInVK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signInVK.png; sourceTree = "<group>"; };
+		B80EFA871A4934B600C4DB07 /* shareFacebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shareFacebook.png; sourceTree = "<group>"; };
+		B86D0EF21A487C1A00C070C6 /* VKSdkResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = VKSdkResources.bundle; path = ../VKSdkResources.bundle; sourceTree = "<group>"; };
+		B86D0EF41A488E3B00C070C6 /* VKLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VKLogo.png; sourceTree = "<group>"; };
 		B86DA95B1A4586F60091F0BC /* StuffOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StuffOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B86DA95F1A4586F60091F0BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B86DA9601A4586F60091F0BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B86DA9621A4586F70091F0BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B86DA9651A4586F70091F0BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B86DA9671A4586F70091F0BC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B86DA96A1A4586F70091F0BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B86DA9701A4586F70091F0BC /* StuffOutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StuffOutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B86DA9751A4586F70091F0BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B86DA9761A4586F70091F0BC /* StuffOutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StuffOutTests.swift; sourceTree = "<group>"; };
+		B86DA9891A45A0EB0091F0BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Intro.storyboard; sourceTree = "<group>"; };
+		B86DA9931A45A79A0091F0BC /* page1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page1.png; sourceTree = "<group>"; };
+		B86DA9941A45A79A0091F0BC /* page2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page2.png; sourceTree = "<group>"; };
+		B86DA9951A45A79A0091F0BC /* page3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page3.png; sourceTree = "<group>"; };
+		B86DA9961A45A79A0091F0BC /* page4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = page4.png; sourceTree = "<group>"; };
+		B86DA99C1A45A8AF0091F0BC /* IntroContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroContentViewController.swift; sourceTree = "<group>"; };
+		B86DA99E1A45AB3E0091F0BC /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		B8877C8A1A46FA3900C03050 /* StuffOut-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StuffOut-Bridging-Header.h"; sourceTree = "<group>"; };
+		B8877C8D1A47023100C03050 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../Frameworks/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		B8877C8F1A47023D00C03050 /* VKSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VKSdk.framework; path = ../Frameworks/VkontakteSDK/VKSdk.framework; sourceTree = "<group>"; };
+		B88E25C71A471874006F331B /* ThanksForOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThanksForOrderViewController.swift; sourceTree = "<group>"; };
+		B8ACA2031A46DCB20031DFB8 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		B8B774A01A48CBB200E3558A /* AddressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressViewController.swift; sourceTree = "<group>"; };
+		B8B774A21A48F8FA00E3558A /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B86D0EFC1A48B0DF00C070C6 /* FacebookSDK.framework in Frameworks */,
+				B8877C901A47023D00C03050 /* VKSdk.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +99,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B809408F1A45B7730035DDD1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B80A8B201A46AEA300B00138 /* StuffOptions.swift */,
+				B8B774A01A48CBB200E3558A /* AddressViewController.swift */,
+				B8ACA2031A46DCB20031DFB8 /* SignUpViewController.swift */,
+				B88E25C71A471874006F331B /* ThanksForOrderViewController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
 		B86DA9521A4586F60091F0BC = {
 			isa = PBXGroup;
 			children = (
 				B86DA95D1A4586F60091F0BC /* StuffOut */,
 				B86DA9731A4586F70091F0BC /* StuffOutTests */,
 				B86DA95C1A4586F60091F0BC /* Products */,
+				B8877C8A1A46FA3900C03050 /* StuffOut-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,11 +132,10 @@
 		B86DA95D1A4586F60091F0BC /* StuffOut */ = {
 			isa = PBXGroup;
 			children = (
+				B86DA98B1A45A2030091F0BC /* ViewControllers */,
+				B86DA9851A45A06F0091F0BC /* Storyboards */,
+				B86DA98C1A45A2150091F0BC /* Resources */,
 				B86DA9601A4586F60091F0BC /* AppDelegate.swift */,
-				B86DA9621A4586F70091F0BC /* ViewController.swift */,
-				B86DA9641A4586F70091F0BC /* Main.storyboard */,
-				B86DA9671A4586F70091F0BC /* Images.xcassets */,
-				B86DA9691A4586F70091F0BC /* LaunchScreen.xib */,
 				B86DA95E1A4586F60091F0BC /* Supporting Files */,
 			);
 			path = StuffOut;
@@ -90,6 +144,17 @@
 		B86DA95E1A4586F60091F0BC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B80EFA871A4934B600C4DB07 /* shareFacebook.png */,
+				B80EFA831A49322B00C4DB07 /* shareVK.png */,
+				B80EFA841A49322B00C4DB07 /* signInVK.png */,
+				B80EFA811A492E6C00C4DB07 /* signInVK.png */,
+				B80EFA7F1A49227B00C4DB07 /* launchImage.png */,
+				B8B774A21A48F8FA00E3558A /* background.png */,
+				B86D0EF41A488E3B00C070C6 /* VKLogo.png */,
+				B86DA9931A45A79A0091F0BC /* page1.png */,
+				B86DA9941A45A79A0091F0BC /* page2.png */,
+				B86DA9951A45A79A0091F0BC /* page3.png */,
+				B86DA9961A45A79A0091F0BC /* page4.png */,
 				B86DA95F1A4586F60091F0BC /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -110,6 +175,45 @@
 				B86DA9751A4586F70091F0BC /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B86DA9851A45A06F0091F0BC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B86DA9641A4586F70091F0BC /* Main.storyboard */,
+				B86DA9881A45A0EB0091F0BC /* Intro.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		B86DA98B1A45A2030091F0BC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B809408F1A45B7730035DDD1 /* Main */,
+				B86DA99B1A45A89F0091F0BC /* Intro */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B86DA98C1A45A2150091F0BC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B86D0EF21A487C1A00C070C6 /* VKSdkResources.bundle */,
+				B8877C8F1A47023D00C03050 /* VKSdk.framework */,
+				B8877C8D1A47023100C03050 /* FacebookSDK.framework */,
+				B86DA9691A4586F70091F0BC /* LaunchScreen.xib */,
+				B86DA9671A4586F70091F0BC /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B86DA99B1A45A89F0091F0BC /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				B86DA99C1A45A8AF0091F0BC /* IntroContentViewController.swift */,
+				B86DA99E1A45AB3E0091F0BC /* IntroViewController.swift */,
+			);
+			name = Intro;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +265,7 @@
 				TargetAttributes = {
 					B86DA95A1A4586F60091F0BC = {
 						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = E6GYNCDD4C;
 					};
 					B86DA96F1A4586F70091F0BC = {
 						CreatedOnToolsVersion = 6.1.1;
@@ -175,6 +280,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = B86DA9521A4586F60091F0BC;
 			productRefGroup = B86DA95C1A4586F60091F0BC /* Products */;
@@ -192,9 +298,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B80EFA821A492E6C00C4DB07 /* signInVK.png in Resources */,
+				B80EFA881A4934B600C4DB07 /* shareFacebook.png in Resources */,
+				B80EFA801A49227B00C4DB07 /* launchImage.png in Resources */,
 				B86DA9661A4586F70091F0BC /* Main.storyboard in Resources */,
+				B86DA9971A45A79A0091F0BC /* page1.png in Resources */,
+				B86DA98A1A45A0EB0091F0BC /* Intro.storyboard in Resources */,
 				B86DA96B1A4586F70091F0BC /* LaunchScreen.xib in Resources */,
 				B86DA9681A4586F70091F0BC /* Images.xcassets in Resources */,
+				B86DA99A1A45A79A0091F0BC /* page4.png in Resources */,
+				B86DA9981A45A79A0091F0BC /* page2.png in Resources */,
+				B86D0EF31A487C1A00C070C6 /* VKSdkResources.bundle in Resources */,
+				B86DA9991A45A79A0091F0BC /* page3.png in Resources */,
+				B8B774A31A48F8FA00E3558A /* background.png in Resources */,
+				B80EFA861A49322B00C4DB07 /* signInVK.png in Resources */,
+				B80EFA851A49322B00C4DB07 /* shareVK.png in Resources */,
+				B86D0EF51A488E3B00C070C6 /* VKLogo.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,8 +331,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B86DA9631A4586F70091F0BC /* ViewController.swift in Sources */,
+				B88E25C81A471874006F331B /* ThanksForOrderViewController.swift in Sources */,
 				B86DA9611A4586F70091F0BC /* AppDelegate.swift in Sources */,
+				B8ACA2041A46DCB20031DFB8 /* SignUpViewController.swift in Sources */,
+				B80A8B211A46AEA300B00138 /* StuffOptions.swift in Sources */,
+				B86DA99D1A45A8AF0091F0BC /* IntroContentViewController.swift in Sources */,
+				B8B774A11A48CBB200E3558A /* AddressViewController.swift in Sources */,
+				B86DA99F1A45AB3E0091F0BC /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +374,14 @@
 				B86DA96A1A4586F70091F0BC /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		B86DA9881A45A0EB0091F0BC /* Intro.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B86DA9891A45A0EB0091F0BC /* Base */,
+			);
+			name = Intro.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -292,6 +424,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -327,6 +463,10 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -336,9 +476,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks/FacebookSDK",
+					"$(PROJECT_DIR)/Frameworks/VkontakteSDK",
+				);
 				INFOPLIST_FILE = StuffOut/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StuffOut-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +495,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks/FacebookSDK",
+					"$(PROJECT_DIR)/Frameworks/VkontakteSDK",
+				);
 				INFOPLIST_FILE = StuffOut/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "StuffOut-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -405,6 +562,7 @@
 				B86DA97C1A4586F70091F0BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B86DA97D1A4586F70091F0BC /* Build configuration list for PBXNativeTarget "StuffOutTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +571,7 @@
 				B86DA97F1A4586F70091F0BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

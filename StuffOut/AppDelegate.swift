@@ -15,8 +15,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        self.window?.rootViewController = self.getInitialViewController()
+        self.window?.makeKeyAndVisible()
         // Override point for customization after application launch.
         return true
+    }
+    
+    func application(application: UIApplication, openURL url: NSURL, sourceApplication: NSString?, annotation: AnyObject) -> Bool {
+        VKSdk.processOpenURL(url, fromApplication: sourceApplication)
+        var wasHandled:Bool = FBAppCall.handleOpenURL(url, sourceApplication: sourceApplication)
+        return wasHandled
     }
 
     func applicationWillResignActive(application: UIApplication) {
@@ -40,7 +49,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-
+    
+    func getInitialViewController() -> UIViewController {
+        var defaults = NSUserDefaults.standardUserDefaults()
+        var storyboardName: String?
+        var intro:String? = defaults.objectForKey("intro")? as? String
+//        if intro == "done" {
+//            storyboardName = "Main"
+//        } else {
+            storyboardName = "Intro"
+//        }
+        var storyboard = UIStoryboard(name: storyboardName!, bundle: nil)
+        return storyboard.instantiateInitialViewController() as UIViewController
+    }
 
 }
 
